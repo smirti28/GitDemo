@@ -28,6 +28,7 @@ public class Demo {
 
 		Thread.sleep(5000);
 		driver.quit();
+		System.out.println("Added this line");
 	}
 
 }
