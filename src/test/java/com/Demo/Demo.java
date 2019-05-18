@@ -12,7 +12,7 @@ public class Demo {
 		int b = 6;
 		int c = 2 * a * b * 2;
 		c = c / 2;
-		return c;
+		return 5;
 	}
 
 	public String getString() {
