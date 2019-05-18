@@ -20,7 +20,7 @@ public class Demo {
 		return temp;
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void lunchDriver() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
