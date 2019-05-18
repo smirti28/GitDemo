@@ -25,6 +25,7 @@ public class Demo {
 	
 	public void myBranch() {
 		System.out.println("This is my Branch.");
+		System.out.println("My Branch New Messgage");
 	}
 
 	@Test(priority = 1)
