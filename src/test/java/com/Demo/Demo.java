@@ -16,7 +16,7 @@ public class Demo {
 	}
 
 	public String getString() {
-		String temp = "Value of a*b is: " + mathOperation();
+		String temp = "Value of a*b is: " + 2 * mathOperation();
 		return temp;
 	}
 
