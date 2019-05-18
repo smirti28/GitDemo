@@ -19,6 +19,7 @@ public class Demo {
 		String temp = "Value of a*b is: " + 2 * mathOperation();
 		System.out.println(" This is Frank Branch.");
 		System.out.println("second line printing.");
+		System.out.println("Added new line again from second branch");
 		return temp;
 	}
 	
