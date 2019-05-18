@@ -21,6 +21,10 @@ public class Demo {
 		System.out.println("second line printing.");
 		return temp;
 	}
+	
+	public void myBranch() {
+		System.out.println("This is my Branch.");
+	}
 
 	@Test(priority = 1)
 	public void lunchDriver() throws InterruptedException {
