@@ -22,7 +22,7 @@ public class Demo {
 		System.out.println("Added new line again from second branch");
 		return temp;
 	}
-	
+
 	public void myBranch() {
 		System.out.println("This is my Branch.");
 		System.out.println("My Branch New Messgage");
@@ -38,6 +38,10 @@ public class Demo {
 		Thread.sleep(5000);
 		driver.quit();
 		System.out.println("Added this line");
+	}
+
+	public static void main(String[] args) {
+
 	}
 
 }
